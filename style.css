@@ -1,0 +1,202 @@
+/* fonts */
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+*body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+    margin: 0;
+    padding: 0;
+}
+
+/* Top */
+.top {
+    width: 100%;
+    height: auto;
+    text-align: center;
+    background-color: rgb(49, 49, 49);
+    color: white;
+    font-family: "Inter", sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 17px;
+    position: relative;
+}
+
+.top a {
+    text-decoration: none;
+    color: white;
+    font-size: 12px;
+}
+
+.top h5 {
+    margin-top: 7px;
+    padding: none;
+    font-size: 12px;
+    color: rgb(233, 233, 233);
+}
+
+
+
+
+
+/* Navbar */
+.nav{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    background-image: url(backgroundImages/bac.jpg);
+    padding-right: 200px;
+    height: auto;
+    border-radius: 0px 0px 10px 10px;
+}
+.nav ul{
+    margin-top: 5px;
+    display: flex;
+    margin-left: auto;
+    gap: 40px;
+}
+.nav ul li{
+    
+    list-style: none;
+}
+.nav a{
+    text-decoration: none;
+    font-size: 1rem;
+    color: rgb(102, 102, 102);
+    font-weight: 500;
+    transition: 0.3s ease;
+}
+.nav a:hover{
+    color: whitesmoke;
+    letter-spacing: 1px;
+}
+.nav img{
+    width: 90px;
+    padding-left: 20px;
+   
+}
+
+
+
+/* Card generator */
+.left {
+    /* background-image: url(banner/blurred-abstract-background-smooth-colors.jpg); */
+    background-color: orangered;
+    background-position: center;
+    background-size: cover;
+    border-radius: 10px 10px 10px 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.left h5 {
+    color: rgb(245, 245, 245);
+    font-size: 2.5rem;
+    text-align: center;
+    font-style: italic;
+    text-transform: uppercase;
+    font-weight: 700;
+
+}
+
+.left span {
+    font-size: 3.5rem;
+    line-height: 5rem;
+}
+
+
+
+
+#card{
+    width: 100%;
+    display: none;
+
+}
+
+.img {
+    width: 100%;
+    height: 200px;
+    overflow: hidden;
+}
+
+.img img {
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.card h1,
+h2 {
+    color: gray;
+    font-weight: 300;
+}
+
+.right form {
+    display: flex;
+    flex-direction: column;
+}
+
+.right form input,
+textarea {
+    max-width: 400px;
+    border-radius: 10px;
+    border: 1px solid rgb(203, 203, 203);
+    padding: 5px;
+    color: orangered;
+}
+
+.right label {
+    color: rgb(86, 86, 86);
+    font-weight: 500;
+}
+
+.newcard{
+    margin: 40px 0px;
+    max-width: 350px;
+    height: auto;
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: column;
+    text-align: left;
+    padding: 12px;
+    border: 1px solid lightgray;
+    border-radius:10px ;
+}
+.newcard button{
+    width: 120px;
+    border: 1px solid rgb(165, 165, 165);
+    border-radius: 10px;
+    transition: 0.5s ease;
+}
+.newcard button:hover{
+    border: none;
+    background-color: orange;
+    color: white;
+}
+.newcard img{
+    max-width: 100%;
+    max-height: 100%;
+    margin: 10px 0px;
+    transition: 0.4s ease;
+    padding: 10px;
+}
+.newcard img:hover{
+background-color: orange;
+border-radius: 20px;
+}
+.newcard h3,p{
+    font-size: 13px;
+    color: rgb(83, 83, 83);
+    font-weight: 500;
+}
